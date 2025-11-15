@@ -122,3 +122,8 @@ while True:
     msg = input()
     sock.send(msg.encode())
 
+Traceback (most recent call last):
+  File "C:\Users\User\Downloads\receiver.py", line 8, in <module>
+    sock.connect((SERVER_IP, SERVER_PORT))
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
